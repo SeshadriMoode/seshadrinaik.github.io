@@ -100,6 +100,16 @@
     .nav-links a { margin-left: 18px; color: var(--text-muted); font-size: 15px; }
     .nav-links a:hover { color: var(--accent-color); }
 
+    .pub-link { font-size: 14px; }
+    .footer p a { font-size: 16px; margin: 0 8px; }
+
+    @media (max-width: 720px) {
+      h1 { font-size: 32px; }
+      h2 { font-size: 26px; }
+      .nav-links a { margin-left: 12px; font-size: 14px; }
+      .section { padding: 56px 0; }
+    }
+
     .footer {
       background-color: #1A1A1A;
       color: #A1A1AA;
@@ -114,14 +124,12 @@
 
   <nav class="navbar">
     <div class="nav-container">
-      <a href="#" class="nav-logo">Seshadri Naik.</a>
+      <a href="index.html" class="nav-logo">Seshadri Naik.</a>
       <div class="nav-links">
         <a href="#research">Research</a>
-        <a href="https://seshadrimoode.github.io/pacc-platoon-visualizer/">Platoon visualizer</a>
+        <a href="https://seshadrimoode.github.io/pacc-platoon-visualizer/">Visualizer</a>
         <a href="#publications">Publications</a>
-        <a href="#conferences">Conferences</a>
-        <a href="#about">About</a>
-        <a href="#life">Life in Motion</a>
+        <a href="#life">Life</a>
         <a href="#contact">Contact</a>
       </div>
     </div>
@@ -140,7 +148,7 @@
         </p>
         
         <div style="margin-left: -10px;">
-          <a href="https://scholar.google.com/citations?hl=en&user=p2ouKjIAAAAJ" target="_blank" class="btn btn-outline">View Research</a>
+          <a href="#publications" class="btn btn-outline">Publications</a>
           <a href="https://seshadrimoode.github.io/pacc-platoon-visualizer/" class="btn btn-outline">Platoon visualizer</a>
           <a href="CV_Seshadri Naik Moode.pdf" target="_blank" class="btn btn-primary">Download CV</a>
         </div>
@@ -160,38 +168,38 @@
         </div>
         <div class="card">
           <h3 style="color: var(--text-main); font-weight: 600;"><i class="fa-solid fa-car-side" style="color: var(--accent-color); margin-right: 8px;"></i>Mixed Traffic Modelling</h3>
-          <p>Hierarchical control framework for optimizing lane usage in non-cooperative mixed traffic.</p>
-          <p style="color: var(--text-muted); font-size: 14px; margin-top: auto;">Optimal Control • Mixed Traffic • Simulation</p>
+          <p>Hierarchical control for lane use when CAVs and human drivers share the freeway (in preparation, with Roncoli and Soriguera).</p>
+          <p style="margin-top: auto;"><a href="#publications">See manuscripts &rarr;</a></p>
         </div>
         <div class="card">
-          <h3 style="color: var(--text-main); font-weight: 600;"><i class="fa-solid fa-leaf" style="color: var(--accent-color); margin-right: 8px;"></i>Platooning & Emissions</h3>
-          <p>Microscopic simulation integrated with emissions modeling (Aimsun + PHEMlight).</p>
-          <p style="color: var(--text-muted); font-size: 14px; margin-top: auto;">Emission • Modeling</p>
+          <h3 style="color: var(--text-main); font-weight: 600;"><i class="fa-solid fa-leaf" style="color: var(--accent-color); margin-right: 8px;"></i>Platooning &amp; Emissions</h3>
+          <p>Energy and emissions of freeway lane-management strategies with CAV platoons (in preparation).</p>
+          <p style="margin-top: auto;"><a href="#publications">See manuscripts &rarr;</a></p>
         </div>
         <div class="card">
           <h3 style="color: var(--text-main); font-weight: 600;"><i class="fa-solid fa-road" style="color: var(--accent-color); margin-right: 8px;"></i>Traffic Management</h3>
-          <p>Freeway Lane Management Strategies with Platoons of CAVs.</p>
-          <p style="margin-top: auto;"><a href="https://seshadrimoode.github.io/pacc-platoon-visualizer/">Open platoon visualizer &rarr;</a></p>
+          <p>Mixed versus dedicated lanes for CAV platoons. Under review at <i>Physica A</i>.</p>
+          <p style="margin-top: auto;"><a href="#publications">See manuscripts &rarr;</a></p>
         </div>
         <div class="card">
           <h3 style="color: var(--text-main); font-weight: 600;"><i class="fa-solid fa-chart-line" style="color: var(--accent-color); margin-right: 8px;"></i>Network VKT after a cut</h3>
-          <p>Counts, network-distance DiD, and a labelled LTR / NR / NVTR split after Barcelona’s first permanent Eixos Verds. <i>Journal of Urban Mobility</i>.</p>
+          <p>Counts, network-distance DiD, and a labelled LTR / NR / NVTR split after Barcelona’s first permanent Eixos Verds. Manuscript in preparation.</p>
           <p style="margin-top: auto;"><a href="https://github.com/SeshadriMoode/SeshadriMoode.github.io/tree/main/jum-eixos-verds-vkt">Replication code</a></p>
         </div>
         <div class="card">
           <h3 style="color: var(--text-main); font-weight: 600;"><i class="fa-solid fa-map-location-dot" style="color: var(--accent-color); margin-right: 8px;"></i>Residential access after a cut</h3>
-          <p>Cumulative-opportunity and Hansen accessibility to other residents after the same 4.85 km through-cut. <i>Journal of Transport Geography</i>.</p>
+          <p>Cumulative-opportunity and Hansen accessibility to other residents after the same 4.85 km through-cut. Manuscript in preparation.</p>
           <p style="margin-top: auto;"><a href="https://github.com/SeshadriMoode/SeshadriMoode.github.io/tree/main/jtg-eixos-verds-accessibility">Replication code</a></p>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="about" class="section bg-alt text-center">
+  <div id="about" class="section text-center">
     <div class="container" style="max-width: 800px;">
-      <h2>About Me</h2>
-      <p style="font-size: 18px;">I hold a PhD in Civil Engineering from Universitat Politècnica de Catalunya – BarcelonaTech (BIT research group), at the intersection of traffic modelling, control, and automated vehicles.</p>
-      <p style="font-size: 18px;">My work focuses on how automated and human-driven vehicles interact, combining theory with simulation to understand system-level behavior.</p>
+      <h2>About</h2>
+      <p style="font-size: 18px;">PhD in Civil Engineering, Universitat Politècnica de Catalunya – BarcelonaTech (BIT), defended 29 July 2026. Thesis: <i>Platooning of Connected Autonomous Vehicles on Freeways: Microscopic Modelling and Management Strategies</i>, supervised by Prof. Francesc Soriguera.</p>
+      <p style="font-size: 18px;">Research stay at KU Leuven Institute for Mobility with Prof. Claudio Roncoli (Sep 2025–Jan 2026). PTV Young Researcher Award, CIT 2023. JOAN ORÓ FI AGAUR doctoral grant.</p>
     </div>
   </div>
 
@@ -213,9 +221,9 @@
             Journal articles
           </span>
           <ul style="padding-left: 20px; margin-top: 15px;">
-            <li style="font-size: 16px; margin-bottom: 12px;">Oriol, L., Martínez-Díaz, M., Moode, S. N., Sala, M., &amp; Soriguera, F. (2024). Platooning of connected automated vehicles on freeways: a microsimulation approach. <i>Transportmetrica B: Transport Dynamics</i>, 12(1), 2360543.</li>
-            <li style="font-size: 16px; margin-bottom: 12px;">Moode, S. N., &amp; Soriguera, F. (2023). Microscopic modeling of connected autonomous vehicles platooning: stability and safety analysis. <i>Transportation Research Procedia</i>, 71, 260–267.</li>
-            <li style="font-size: 16px; margin-bottom: 12px;">Moode, S. N., &amp; Soriguera, F. (2023). Platooning of connected autonomous vehicles in freeway traffic: state of the art. <i>Transportation Research Procedia</i>, 71, 268–275.</li>
+            <li style="font-size: 16px; margin-bottom: 12px;">Oriol, L., Martínez-Díaz, M., Moode, S. N., Sala, M., &amp; Soriguera, F. (2024). Platooning of connected automated vehicles on freeways: a microsimulation approach. <i>Transportmetrica B: Transport Dynamics</i>, 12(1), 2360543. <a class="pub-link" href="https://doi.org/10.1080/21680566.2024.2360543">doi</a></li>
+            <li style="font-size: 16px; margin-bottom: 12px;">Moode, S. N., &amp; Soriguera, F. (2023). Microscopic modeling of connected autonomous vehicles platooning: stability and safety analysis. <i>Transportation Research Procedia</i>, 71, 260–267. <a class="pub-link" href="https://doi.org/10.1016/j.trpro.2023.11.083">doi</a></li>
+            <li style="font-size: 16px; margin-bottom: 12px;">Moode, S. N., &amp; Soriguera, F. (2023). Platooning of connected autonomous vehicles in freeway traffic: state of the art. <i>Transportation Research Procedia</i>, 71, 268–275. <a class="pub-link" href="https://doi.org/10.1016/j.trpro.2023.11.084">doi</a></li>
           </ul>
         </div>
 
@@ -225,7 +233,7 @@
           </span>
           <ul style="padding-left: 20px; margin-top: 15px;">
             <li style="font-size: 16px; margin-bottom: 12px;">Moode, S. N., Soriguera, F., Sala, M., &amp; Martínez-Díaz, M. (2025). Lane management strategies to enhance traffic performance in mixed traffic environments with platoons of connected autonomous vehicles. <i>TRISTAN XII</i> (12th Triennial Symposium on Transportation Analysis), Okinawa, Japan.</li>
-            <li style="font-size: 16px; margin-bottom: 12px;">Zheng, X., Soriguera, F., Xie, C., &amp; Moode, S. N. (2025). An interaction-aware predictive control framework with adaptive gap regulation in connected and automated vehicle platoon. In <i>2025 IEEE Intelligent Vehicles Symposium (IV)</i> (pp. 1674–1680). IEEE.</li>
+            <li style="font-size: 16px; margin-bottom: 12px;">Zheng, X., Soriguera, F., Xie, C., &amp; Moode, S. N. (2025). An interaction-aware predictive control framework with adaptive gap regulation in connected and automated vehicle platoon. In <i>2025 IEEE Intelligent Vehicles Symposium (IV)</i> (pp. 1674–1680). IEEE. <a class="pub-link" href="https://doi.org/10.1109/IV64158.2025.11097812">doi</a></li>
             <li style="font-size: 16px; margin-bottom: 12px;">Moode, S. N., Soriguera, F., Zheng, X., &amp; Martínez-Díaz, M. (2024). Exploring safety in platoons of connected autonomous vehicles: investigating emergency braking conditions and collision severity. In <i>Proceedings of the 12th Symposium of the European Association for Research in Transportation (hEART)</i>.</li>
           </ul>
         </div>
@@ -294,18 +302,12 @@
         <div class="card">
           <h3 style="color: var(--text-main); font-weight: 600;"><i class="fa-solid fa-mountain" style="color: var(--accent-color); margin-right: 8px;"></i>Hiking</h3>
           <img src="IMG_20250719_161023.jpg" alt="Seshadri Naik at Monte Perdido summit (3355m)" style="margin-bottom: 15px;">
-          <p>Exploring trails, seeking elevation, and finding perspective in nature.</p>
-          <div style="display: flex; flex-direction: column; gap: 10px; margin-top: auto;">
-            <a href="https://instagram.com/" target="_blank">See trail photos &rarr;</a>
-          </div>
+          <p>Exploring trails, seeking elevation, and finding perspective in nature. Monte Perdido, 3,355 m.</p>
         </div>
 
         <div class="card">
           <h3 style="color: var(--text-main); font-weight: 600;"><i class="fa-solid fa-plane" style="color: var(--accent-color); margin-right: 8px;"></i>Travelling</h3>
           <p>Experiencing new cultures, navigating new cities, and expanding my worldview.</p>
-          <div style="margin-top: auto;">
-            <a href="#" target="_blank">Travel gallery &rarr;</a>
-          </div>
         </div>
 
       </div>
@@ -315,10 +317,10 @@
   <footer id="contact" class="footer">
     <div class="container">
       <h2 style="color: #ffffff;">Get in Touch</h2>
-      <p style="margin-bottom: 30px;">Open to collaborations and research discussions.</p>
-      
+      <p style="margin-bottom: 16px;"><a href="mailto:seshadri.naik.moode@upc.edu" style="color:#ffffff; font-size:16px;">seshadri.naik.moode@upc.edu</a></p>
       <div style="margin-bottom: 30px;">
         <a href="https://scholar.google.com/citations?hl=en&user=p2ouKjIAAAAJ" target="_blank" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="https://orcid.org/0000-0002-9651-7535" target="_blank" aria-label="ORCID"><i class="fa-brands fa-orcid"></i></a>
         <a href="mailto:seshadri.naik.moode@upc.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/seshadri-naik-5002a2119" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
       </div>
