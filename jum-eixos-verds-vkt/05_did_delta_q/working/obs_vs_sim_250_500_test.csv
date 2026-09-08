@@ -1,0 +1,2 @@
+bin,n,obs_mean_delta_q,obs_sd,obs_se_mean,sim_fixed,t_obs_minus_sim,p_two_sided,did_q_vs_control,did_se_hc1,power_detect_sim_did_alpha05
+250_500m,33,-758.4,3024.9,526.6,1699.6,-4.67,5.2e-05,-212.0,544.3,0.877

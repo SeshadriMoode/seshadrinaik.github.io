@@ -1,0 +1,13 @@
+04_geometry/working/osm_highways_phase1_buffer.json
+**/*.pkl
+**/__pycache__/
+*.pyc
+*.log
+*.aux
+*.abs
+*.blg
+*.bbl
+*.spl
+.DS_Store
+
+07_manuscript/working/tiles/

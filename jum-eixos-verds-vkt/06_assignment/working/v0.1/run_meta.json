@@ -1,0 +1,28 @@
+{
+  "status": "simulated_demand_fixed_primary; elastic_od_not_identified",
+  "prior": "gravity_padro_2022_barri_beta2",
+  "count_window": "incremental_2022h1_vs_2024_25",
+  "system_boundary_m": 3500,
+  "treated_proxy": "centreline_aligned_edges_cost_x100",
+  "pre_fit": {
+    "n": 297,
+    "rmse": 11655.9,
+    "mape": 0.745,
+    "corr": 0.559
+  },
+  "gravity_k": 16.863305775201244,
+  "n_zones": 53,
+  "n_od_paths_pre": 2305,
+  "n_od_paths_post": 2305,
+  "n_stations": 297,
+  "treated_edge_km": 2.581,
+  "vkt_pre": 6781197.2411095025,
+  "vkt_fixed": 6788256.01442183,
+  "footprint_fixed": {
+    "radius_m": 500,
+    "share_at_radius": 0.914,
+    "rule": "smallest_D_with_80pct_of_abs_dVKT"
+  },
+  "emef_used": false,
+  "elastic_od_refit": false
+}

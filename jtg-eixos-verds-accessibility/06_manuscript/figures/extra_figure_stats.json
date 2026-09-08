@@ -1,0 +1,37 @@
+{
+  "study": {
+    "n_districts": 10,
+    "zoom_m": [
+      428241.36576196365,
+      4580512.489208099,
+      431594.8910017738,
+      4583861.781402263
+    ]
+  },
+  "isochrones": {
+    "2138": {
+      "barri": "la Nova Esquerra de l'Eixample",
+      "district": "Eixample",
+      "pop_origin": 1921.0,
+      "n_pre": 1043,
+      "n_lost": 0,
+      "n_gained": 0,
+      "pop_pre": 1593522.0,
+      "pop_lost": 0.0,
+      "pct_lost": 0.0,
+      "d_axis_m": 143.45086975081608
+    },
+    "8111": {
+      "barri": "Ciutat Meridiana",
+      "district": "Nou Barris",
+      "pop_origin": 1659.0,
+      "n_pre": 818,
+      "n_lost": 1,
+      "n_gained": 0,
+      "pop_pre": 1238681.0,
+      "pop_lost": 2076.0,
+      "pct_lost": 0.16759763005971676,
+      "d_axis_m": 6948.755970138225
+    }
+  }
+}

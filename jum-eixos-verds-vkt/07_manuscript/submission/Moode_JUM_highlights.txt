@@ -1,0 +1,5 @@
+Local traffic reduction is not a measure of network vehicle travel.
+Nearby counts show no 250-500 m reroute surge inside 3.5 km.
+A demand-fixed model predicts extra traffic 250-500 m away; counters do not.
+On-axis LTR is simulated: public stations 4066 and 4067 are dark.
+Citywide net VKT is unidentified; leftover flow may leave the 3.5 km graph.

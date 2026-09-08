@@ -1,0 +1,181 @@
+﻿{
+    "notes_translated":  {
+                             "ca":  "Tipus de tecnologia usada en els equipaments per registrar aforaments de mobilitat a la ciutat de Barcelona.",
+                             "en":  "Technology type used as equipment to read the capacity of the vehicle mobility in the city of Barcelona.",
+                             "es":  "Tipo de tecnología usada en los equipamientos para registrar el aforo de movilidad en la ciudad de Barcelona."
+                         },
+    "geolocation":  "No",
+    "code":  "aforament tipus equipament",
+    "url_tornada":  {
+                        "ca":  "http://mobilitat.ajuntament.barcelona.cat/",
+                        "en":  "http://mobilitat.ajuntament.barcelona.cat/en/",
+                        "es":  "http://mobilitat.ajuntament.barcelona.cat/es/"
+                    },
+    "dataset_fields_description":  "Datasets relacionats:  \r\n__[Detall dels aforaments de mobilitat de la ciutat de Barcelona](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/aforaments-detall)__  \r\n __[Equipaments de mesura d\u0027aforaments de la ciutat de Barcelona](http://opendata-ajuntament.barcelona.cat/data/ca/dataset/aforaments-descriptiu)__     ",
+    "fuente":  "Ajuntament de Barcelona",
+    "private":  false,
+    "num_tags":  6,
+    "api":  "Yes",
+    "frequency":  "PETICIO_NEGOCI",
+    "id":  "98cfb500-aee2-46f4-a360-fc87fe14e3a1",
+    "title_translated":  {
+                             "ca":  "Tipus de tecnologia dels equipaments d\u0027aforaments de mobilitat de la ciutat de Barcelona",
+                             "en":  "Technology type of the vehicle gauging equipments in the city of Barcelona",
+                             "es":  "Tipo de tecnologia de los equipamientos de aforo de la ciudad de Barcelona"
+                         },
+    "metadata_modified":  "2025-01-30T11:34:56.175715",
+    "author":  "Mobilitat i Infraestructures – Ecologia Urbana",
+    "author_email":  null,
+    "isopen":  true,
+    "long_format":  "Yes",
+    "state":  "active",
+    "version":  "",
+    "mar_od":  "Yes",
+    "relationships_as_object":  [
+
+                                ],
+    "department":  "Gestió de la Mobilitat",
+    "creator_user_id":  "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+    "type":  "dataset",
+    "resources":  [
+                      {
+                          "cache_last_updated":  null,
+                          "token_type":  "",
+                          "package_id":  "98cfb500-aee2-46f4-a360-fc87fe14e3a1",
+                          "datastore_active":  true,
+                          "id":  "8157d6c2-fe47-483a-89f0-baefde2ba27f",
+                          "size":  "90",
+                          "state":  "active",
+                          "api_access_number":  40,
+                          "api_access_number_absolute":  118,
+                          "token_required":  "No",
+                          "hash":  "",
+                          "description":  "",
+                          "format":  "CSV",
+                          "downloads":  1426,
+                          "mimetype_inner":  null,
+                          "url_type":  "upload",
+                          "token_provider":  "",
+                          "column_types":  "",
+                          "file_volum":  "little",
+                          "mimetype":  null,
+                          "cache_url":  null,
+                          "name":  "2017_tipus_equipament.csv",
+                          "created":  "2018-03-07T12:42:33.911160",
+                          "url":  "https://opendata-ajuntament.barcelona.cat/data/dataset/98cfb500-aee2-46f4-a360-fc87fe14e3a1/resource/8157d6c2-fe47-483a-89f0-baefde2ba27f/download/2017_aforament_tipus_equipament.csv",
+                          "downloads_absolute":  1554,
+                          "map_visualization_res":  "none",
+                          "qa":  {
+                                     "updated":  "2026-09-04T02:04:39.462281",
+                                     "openness_score":  3,
+                                     "archival_timestamp":  null,
+                                     "format":  "CSV",
+                                     "created":  "2018-03-08T02:07:49.916361",
+                                     "resource_timestamp":  null,
+                                     "openness_score_reason":  "This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3."
+                                 },
+                          "last_modified":  "2020-02-28T10:50:47.524383",
+                          "position":  0,
+                          "revision_id":  "1ce0a3e5-99c6-4e9a-bbf5-fe442bfc0b47",
+                          "resource_type":  null
+                      }
+                  ],
+    "token_required":  "No",
+    "decalatgeNum":  "N/A",
+    "tags":  [
+                 {
+                     "vocabulary_id":  null,
+                     "state":  "active",
+                     "display_name":  "Aforament",
+                     "id":  "3b87d4d0-1325-45f2-890d-1a3b0b040ba3",
+                     "name":  "Aforament"
+                 },
+                 {
+                     "vocabulary_id":  null,
+                     "state":  "active",
+                     "display_name":  "Any 2017",
+                     "id":  "1fde7902-49a3-45b0-be19-a19872d01398",
+                     "name":  "Any 2017"
+                 },
+                 {
+                     "vocabulary_id":  null,
+                     "state":  "active",
+                     "display_name":  "Bicicletes",
+                     "id":  "8b8f5101-38f3-40d2-85d2-55c170511d97",
+                     "name":  "Bicicletes"
+                 },
+                 {
+                     "vocabulary_id":  null,
+                     "state":  "active",
+                     "display_name":  "Mobilitat",
+                     "id":  "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+                     "name":  "Mobilitat"
+                 },
+                 {
+                     "vocabulary_id":  null,
+                     "state":  "active",
+                     "display_name":  "Trànsit",
+                     "id":  "018a284f-c17a-4bfd-9e17-1344bcc3b18e",
+                     "name":  "Trànsit"
+                 },
+                 {
+                     "vocabulary_id":  null,
+                     "state":  "active",
+                     "display_name":  "Vehicles",
+                     "id":  "64f8342a-4609-4523-a18e-4c2e387afdfc",
+                     "name":  "Vehicles"
+                 }
+             ],
+    "ODS_Principal_agenda_2030":  "ODS 11: Ciutats i comunitats sostenibles",
+    "fecha_publicacion":  "2018-09-07",
+    "ODS_Colateral2_agenda_2030":  "N/A",
+    "ODS_Colateral1_agenda_2030":  "N/A",
+    "license_id":  "CC-BY-4.0",
+    "hide_url":  "No",
+    "relationships_as_subject":  [
+
+                                 ],
+    "license_title":  "Creative Commons Attribution 4.0",
+    "groups":  [
+
+               ],
+    "num_resources":  1,
+    "organization":  {
+                         "description":  "",
+                         "created":  "2017-01-24T16:55:06.928326",
+                         "title":  "Transport",
+                         "name":  "transport",
+                         "is_organization":  true,
+                         "state":  "active",
+                         "image_url":  "bcn-icon-transports-publics",
+                         "revision_id":  "f2d2031d-7973-42f6-8437-d6ee8ad98609",
+                         "type":  "organization",
+                         "id":  "50bee103-b517-4728-838e-fc0d6b19e91f",
+                         "approval_status":  "approved"
+                     },
+    "name":  "aforament-tipus-equipament",
+    "url":  null,
+    "notes":  "Technology type used as equipment to read the capacity of the vehicle mobility in the city of Barcelona.",
+    "owner_org":  "50bee103-b517-4728-838e-fc0d6b19e91f",
+    "load_type":  "ds_manual",
+    "qa":  {
+               "openness_score_reason":  "This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.",
+               "updated":  "2026-09-04T02:04:39.462281",
+               "openness_score":  3
+           },
+    "tag":  "Vehicles,Aforament,Bicicletes,Any 2017,Trànsit,Mobilitat",
+    "license_url":  "https://creativecommons.org/licenses/by/4.0/",
+    "historical":  "Yes",
+    "title":  "Technology type of the vehicle gauging equipments in the city of Barcelona",
+    "revision_id":  "07e3d04d-7707-4a17-90ee-a7aa148ac829",
+    "extras":  [
+                   {
+                       "key":  "01.Codi_Tipus_Equip",
+                       "value":  "Codi d\u0027identificació del tipus d\u0027equipament"
+                   },
+                   {
+                       "key":  "02.Desc_Tipus_Equip",
+                       "value":  "Descripció del tipus d\u0027equipament"
+                   }
+               ]
+}

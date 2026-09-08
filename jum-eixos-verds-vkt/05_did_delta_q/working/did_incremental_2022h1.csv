@@ -1,0 +1,7 @@
+spec,bin,label,n_stations,q_pre_mean,q_post_mean,delta_q_mean,did_q_vs_control,did_q_se,did_log_vs_control,did_log_se,did_over_pre_pct
+incremental_2022h1_vs_2024_25,control_gt2km,>2 km (control),182,11510.3,10963.9,-546.3,0.0,150.5,0.0,0.0115,0.0
+incremental_2022h1_vs_2024_25,on_or_immediate,on / immediate (<=40 m),8,20965.8,20498.0,-467.7,78.6,760.2,0.0353,0.0531,0.37
+incremental_2022h1_vs_2024_25,0_250m,0-250 m,20,24079.9,22091.3,-1988.6,-1442.3,728.8,-0.0164,0.042,-5.99
+incremental_2022h1_vs_2024_25,250_500m,250-500 m,33,19362.0,18603.6,-758.4,-212.0,544.3,0.0183,0.0404,-1.1
+incremental_2022h1_vs_2024_25,500_1000m,500 m-1 km,40,15398.4,15526.7,128.3,674.6,579.2,0.0638,0.033,4.38
+incremental_2022h1_vs_2024_25,1_2km,1-2 km,66,14458.5,13732.6,-725.9,-179.6,523.9,-0.01,0.034,-1.24

@@ -1,0 +1,30 @@
+{
+  "0.03": {
+    "off_n": 1052,
+    "off_median_pct": -0.011,
+    "off_median_dA": -145.0,
+    "corr_pct_distance_off": 0.155,
+    "n_negative": 1035
+  },
+  "0.05": {
+    "off_n": 1052,
+    "off_median_pct": -0.018,
+    "off_median_dA": -220.5,
+    "corr_pct_distance_off": 0.162,
+    "n_negative": 1035
+  },
+  "0.08": {
+    "off_n": 1052,
+    "off_median_pct": -0.03,
+    "off_median_dA": -302.9,
+    "corr_pct_distance_off": 0.172,
+    "n_negative": 1035
+  },
+  "0.15": {
+    "off_n": 1052,
+    "off_median_pct": -0.059,
+    "off_median_dA": -383.7,
+    "corr_pct_distance_off": 0.196,
+    "n_negative": 1035
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "income_joined": true,
+  "n_barri": 73,
+  "worst_barri_off_x100": "Vallbona",
+  "worst_barri_pct": -0.1931055612529308,
+  "eixample_on_axis": 15,
+  "off_axis_pct_x100_p5": 0.0,
+  "off_axis_pct_x100_p95": 0.0,
+  "corr_pct_x100_distance": -0.13384959359885812,
+  "corr_pct_drop_distance": -0.12248456279751388,
+  "corr_pct_x100_renda_off": -0.011423530015216283
+}

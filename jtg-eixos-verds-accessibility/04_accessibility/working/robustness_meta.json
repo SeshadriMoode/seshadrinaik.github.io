@@ -1,0 +1,40 @@
+{
+  "design": "single_contemporary_graph_recode",
+  "hansen_beta": {
+    "0.03": {
+      "off_median_pct": -0.428,
+      "off_median_dA": -5599.7,
+      "corr_pct_distance_off": 0.134
+    },
+    "0.05": {
+      "off_median_pct": -0.606,
+      "off_median_dA": -7003.8,
+      "corr_pct_distance_off": 0.341
+    },
+    "0.08": {
+      "off_median_pct": -0.823,
+      "off_median_dA": -7843.1,
+      "corr_pct_distance_off": 0.485
+    }
+  },
+  "parallel_1.2_on_consell_aligned_80_400m": {
+    "n_edges": 1533,
+    "directed_km": 32.47,
+    "factor": 1.2,
+    "off_median_pct_car15": -0.807,
+    "off_median_dA_car15": -12923.0,
+    "x100_off_median_pct_car15": -0.805
+  },
+  "corridor_2136_2067": {
+    "euclidean_km": 2.77,
+    "t_pre_min": 4.17,
+    "t_post_min": 4.61,
+    "implied_kmh_pre": 39.8
+  },
+  "on_axis_n": 15,
+  "off_axis_n": 1052,
+  "amenity_osm": {
+    "ok": false,
+    "error": "504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpreter?data=%0A++++%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%0A++++node%5B%22amenity%22~%22%5E%28school%7Cuniversity%7Ckindergarten%7Ccollege%7Chospital%7Cclinic%7Cdoctors%7Cpharmacy%7Clibrary%7Ccommunity_centre%29%24%22%5D%2841.32%2C2.05%2C41.47%2C2.23%29%3B%0A++++out%3B%0A++++"
+  }
+}

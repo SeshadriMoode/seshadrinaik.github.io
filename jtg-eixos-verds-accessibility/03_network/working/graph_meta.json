@@ -1,0 +1,85 @@
+{
+  "built_utc": "2026-09-07T10:36:20.259345+00:00",
+  "treated_cost": 100.0,
+  "snap_section_m": 200.0,
+  "inject": {
+    "n_new_nodes": 173,
+    "n_snapped_vertices": 233,
+    "injected_directed_km": 9.84
+  },
+  "car_pre": {
+    "n_nodes": 79893,
+    "n_edges": 109238,
+    "treated_directed_km": 12.03,
+    "highways": {
+      "residential": 51663,
+      "tertiary": 19204,
+      "secondary": 12011,
+      "living_street": 11027,
+      "primary": 3701,
+      "unclassified": 2889,
+      "trunk_link": 2065,
+      "trunk": 1965,
+      "primary_link": 1200,
+      "tertiary_link": 1081,
+      "secondary_link": 886,
+      "injected_principal": 579,
+      "motorway": 504,
+      "motorway_link": 347,
+      "stitch": 116
+    }
+  },
+  "car_post_drop": {
+    "n_nodes": 79646,
+    "n_edges": 108507
+  },
+  "walk": {
+    "n_nodes": 296711,
+    "n_edges": 712786,
+    "note": "pre_equals_post_no_invented_speedup"
+  },
+  "snap_car": {
+    "n": 1068,
+    "n_snapped": 1067,
+    "median_snap_m": 30.8,
+    "max_snap_m": 193.3,
+    "unsnapped": [
+      7097
+    ]
+  },
+  "snap_walk": {
+    "n": 1068,
+    "n_snapped": 1068,
+    "median_snap_m": 17.5
+  },
+  "smoke": {
+    "nearest_axis_seccio": 2143,
+    "nearest_axis_snap_m": 10.4,
+    "farthest_axis_seccio": 8116,
+    "farthest_axis_d_m": 7386.798445445395,
+    "unsnapped_car": [
+      7097
+    ],
+    "axis_end_od": {
+      "src_seccio": 2136,
+      "dst_seccio": 2067,
+      "t_pre_min": 4.173,
+      "t_post_x100_min": 4.608,
+      "t_post_drop_min": 4.608,
+      "dt_x100_min": 0.436,
+      "dt_drop_min": 0.436
+    }
+  },
+  "labels": {
+    "T_ij": "simulated",
+    "walk_delta": "zero_by_construction_until_stated_scenario"
+  },
+  "snap_car_drop": {
+    "n": 1068,
+    "n_snapped": 1067,
+    "median_snap_m": 31.5,
+    "unsnapped": [
+      7097
+    ]
+  }
+}

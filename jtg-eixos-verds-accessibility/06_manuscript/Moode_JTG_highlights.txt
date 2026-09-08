@@ -1,0 +1,5 @@
+Off-axis 15-min residential car: 0 (x100) or -0.10% (drop).
+A stated 15 s turn penalty leaves the 15-min median at 0.
+Hansen off-axis median is -0.018%; nearby still ranks first.
+Local egress snaps replace centroids trapped on the treated centreline.
+Drop-treated is -0.10% in every district.

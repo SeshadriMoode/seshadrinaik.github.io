@@ -1,0 +1,114 @@
+{
+  "status": "v1.0_principal_centrelines; simulated_demand_fixed_primary; elastic_od_not_identified",
+  "assignment_version": "v1.0",
+  "prior": "gravity_padro_2022_barri_beta2",
+  "count_window": "incremental_2022h1_vs_2024_25",
+  "system_boundary_m": 3500,
+  "treated_proxy": "principal_centrelines_injected_plus_osm_aligned_cost_x100",
+  "principal_undirected_km": 4.85,
+  "inject": {
+    "n_new_nodes": 170,
+    "n_snapped_vertices": 236,
+    "injected_directed_km": 9.843
+  },
+  "pre_fit": {
+    "n": 297,
+    "rmse": 11421.3,
+    "mape": 0.694,
+    "corr": 0.59
+  },
+  "gravity_k": 17.135437158777588,
+  "n_zones": 53,
+  "n_od_paths_pre": 2307,
+  "n_od_paths_post": 2307,
+  "n_stations": 297,
+  "treated_edge_km": 12.111,
+  "vkt_pre": 6881281.095607864,
+  "vkt_fixed": 6888589.973015726,
+  "footprint_fixed": {
+    "radius_m": 500,
+    "share_at_radius": 0.949,
+    "rule": "smallest_D_with_80pct_of_abs_dVKT"
+  },
+  "cost_factor_sensitivity": [
+    {
+      "treated_cost": 100.0,
+      "LTR": 39596.6332959244,
+      "NR": 46905.51070378623,
+      "NVTR": -7308.87740786183,
+      "sim_delta_q_250_500m": 1699.6479678810945,
+      "n_od_paths": 2307,
+      "primary": true
+    },
+    {
+      "treated_cost": 10.0,
+      "LTR": 39596.6332959244,
+      "NR": 46905.51070378623,
+      "NVTR": -7308.87740786183,
+      "sim_delta_q_250_500m": 1699.6479678810945,
+      "n_od_paths": 2307,
+      "primary": false
+    },
+    {
+      "treated_cost": 1000.0,
+      "LTR": 39596.6332959244,
+      "NR": 46905.51070378623,
+      "NVTR": -7308.87740786183,
+      "sim_delta_q_250_500m": 1699.6479678810945,
+      "n_od_paths": 2307,
+      "primary": false
+    }
+  ],
+  "gravity_beta_sensitivity": [
+    {
+      "gravity_beta": 2.0,
+      "primary": true,
+      "gravity_k": 17.135437158777588,
+      "pre_corr": 0.59,
+      "pre_mape": 0.694,
+      "pre_rmse": 11421.3,
+      "furness_success": false,
+      "LTR": 39596.6332959244,
+      "NR": 46905.51070378623,
+      "NVTR": -7308.87740786183,
+      "sim_delta_q_on_immediate": -354.2219700763992,
+      "sim_delta_q_250_500m": 1699.6479678810945,
+      "sim_sign_250_500m_positive": true,
+      "obs_delta_q_250_500m": -758.3615544880888
+    },
+    {
+      "gravity_beta": 1.0,
+      "primary": false,
+      "gravity_k": 0.004298317198078138,
+      "pre_corr": 0.607,
+      "pre_mape": 0.682,
+      "pre_rmse": 11238.2,
+      "furness_success": false,
+      "LTR": 39351.28933986759,
+      "NR": 44924.259800899235,
+      "NVTR": -5572.970461031648,
+      "sim_delta_q_on_immediate": -737.1302514619514,
+      "sim_delta_q_250_500m": 2407.9680537329186,
+      "sim_sign_250_500m_positive": true,
+      "obs_delta_q_250_500m": -758.3615544880888
+    },
+    {
+      "gravity_beta": 3.0,
+      "primary": false,
+      "gravity_k": 10432.479858875346,
+      "pre_corr": 0.539,
+      "pre_mape": 0.72,
+      "pre_rmse": 12306.0,
+      "furness_success": false,
+      "LTR": 42116.98219967792,
+      "NR": 51434.97224298091,
+      "NVTR": -9317.99004330299,
+      "sim_delta_q_on_immediate": -353.73778914595005,
+      "sim_delta_q_250_500m": 1452.4933498203247,
+      "sim_sign_250_500m_positive": true,
+      "obs_delta_q_250_500m": -758.3615544880888
+    }
+  ],
+  "emef_used": false,
+  "elastic_od_refit": false
+}

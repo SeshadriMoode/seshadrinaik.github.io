@@ -1,0 +1,11 @@
+03_network/working/osm_highways_barcelona.json
+03_network/working/*.pkl
+**/__pycache__/
+*.pyc
+*.log
+*.aux
+*.abs
+*.blg
+*.bbl
+*.spl
+.DS_Store

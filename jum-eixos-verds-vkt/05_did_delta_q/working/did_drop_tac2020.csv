@@ -1,0 +1,7 @@
+spec,bin,label,n_stations,q_pre_mean,q_post_mean,delta_q_mean,did_q_vs_control,did_q_se,did_log_vs_control,did_log_se,did_over_pre_pct
+drop_tac2020_other_streets,control_gt2km,>2 km (control),187,12728.9,10940.2,-1788.7,0.0,253.9,0.0,0.0214,0.0
+drop_tac2020_other_streets,on_or_immediate,on / immediate (<=40 m),5,13146.3,12227.7,-918.6,870.1,1252.4,0.1063,0.0781,6.62
+drop_tac2020_other_streets,0_250m,0-250 m,14,14863.1,12063.3,-2799.8,-1011.1,929.9,0.0154,0.0634,-6.8
+drop_tac2020_other_streets,250_500m,250-500 m,25,14111.0,12083.1,-2027.9,-239.2,714.9,0.0157,0.0531,-1.7
+drop_tac2020_other_streets,500_1000m,500 m-1 km,38,15598.3,13924.0,-1674.3,114.4,765.1,0.0623,0.0451,0.73
+drop_tac2020_other_streets,1_2km,1-2 km,60,15002.4,11419.1,-3583.3,-1794.6,722.0,-0.107,0.0464,-11.96

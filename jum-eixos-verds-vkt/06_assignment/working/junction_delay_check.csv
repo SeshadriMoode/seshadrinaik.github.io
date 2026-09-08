@@ -1,0 +1,2 @@
+spec,pre_corr,pre_mape,pre_rmse,n_paths_differ,n_od_pairs_pre,sim_delta_q_250_500m,sim_sign_250_500m_positive,sim_delta_q_on_immediate,LTR,NR,NVTR,obs_delta_q_250_500m
+junction_delay_80m_same_OD,0.457,0.986,16365.6,0,2307,0.0,False,0.0,-0.0,0.0,-0.0,-758.3615544880888

@@ -1,0 +1,57 @@
+{
+  "n": 316,
+  "names": [
+    "Carrer de Girona",
+    "Carrer de Rocafort",
+    "Carrer del Comte Borrell"
+  ],
+  "sample": [
+    {
+      "type": "way",
+      "id": 4745960,
+      "tags": {
+        "change:lanes": "yes|not_right|not_left",
+        "highway": "residential",
+        "lanes": "3",
+        "maxspeed": "30",
+        "name": "Carrer del Comte Borrell",
+        "name:ca": "Carrer del Comte Borrell",
+        "name:etymology:wikidata": "Q509228",
+        "oneway": "yes",
+        "psv:lanes": "yes|yes|designated",
+        "surface": "asphalt",
+        "width": "10"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4745963,
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Carrer del Comte Borrell",
+        "name:ca": "Carrer del Comte Borrell",
+        "name:etymology:wikidata": "Q509228",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4745980,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Carrer de Rocafort",
+        "name:ca": "Carrer de Rocafort",
+        "name:etymology:wikidata": "Q2898979",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

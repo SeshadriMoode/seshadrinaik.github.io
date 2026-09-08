@@ -1,0 +1,2 @@
+n_stations,n_unhit_pred_lt1,share_unhit,n_ratio_outside_1_to_3,share_ratio_outside_1_to_3,median_pred_over_obs,optimizer_success,optimizer_nit,optimizer_message,factor_a_min,factor_a_max,factor_g_min,factor_g_max,n_od_pairs_pre,n_zones
+297,70,0.236,56,0.189,0.846,False,25,STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT,-4.449094867005477,2.818316278230473,-3.500243497552815,1.9439639482193718,2307,53
